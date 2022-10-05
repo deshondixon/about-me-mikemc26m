@@ -1,8 +1,12 @@
-# LAB - 2 
+# LABs - 2 & 3
 
-## About Me
+## About Me - Lab 2
 
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+The index page tells the user about me. I added JS that promted the user to guess yes or no to 5 questions.  
+
+## Lab 3
+
+I added JS to prompt the user to guess my favorite items and limited them on the number of guesses. 
 
 ### Author: Student/Group Name (Add name of any help I got)
 
