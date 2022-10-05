@@ -8,9 +8,9 @@ alert('Welcome! ' + usersName);
 
 
 let beenToMidwest = prompt('Have you been to the Mid-West?').toLowerCase();
-console.log(beenToMidwest);
+// console.log(beenToMidwest);
 beenToMidwest = beenToMidwest.toLowerCase();
-console.log(beenToMidwest);
+// console.log(beenToMidwest);
 
 if (beenToMidwest === 'yes' || beenToMidwest === 'y') {
   // console.log('Thats great! Me too!');
@@ -31,9 +31,9 @@ else if (beenToMidwest === 'no' || beenToMidwest === 'n') {
 
 
 let beenToWest = prompt('Have you been to the West Coast?').toLowerCase();
-console.log(beenToWest);
+// console.log(beenToWest);
 beenToWest = beenToMidwest.toLowerCase();
-console.log(beenToWest);
+// console.log(beenToWest);
 
 if (beenToWest === 'yes' || beenToWest === 'y') {
   // console.log('Thats great! Me too!');
@@ -56,9 +56,9 @@ else {
 
 
 let likeComps = prompt('Do you like computers?').toLowerCase();
-console.log(likeComps);
+// console.log(likeComps);
 likeComps = likeComps.toLowerCase();
-console.log(likeComps);
+// console.log(likeComps);
 
 if (likeComps === 'yes' || likeComps === 'y') {
   // console.log('Thats great! Me too!');
@@ -79,9 +79,9 @@ else {
 
 
 let sports = prompt('Do you like sports?').toLowerCase();
-console.log(likeComps);
+// console.log(likeComps);
 sports = sports.toLowerCase();
-console.log(sports);
+// console.log(sports);
 
 if (sports === 'yes' || sports === 'y') {
   // console.log('Thats great! Me too!');
@@ -106,9 +106,9 @@ else {
 
 
 let fishing = prompt('Do you like to fish?').toLowerCase();
-console.log(fishing);
+// console.log(fishing);
 fishing = fishing.toLowerCase();
-console.log(fishing);
+// console.log(fishing);
 
 if (fishing === 'yes' || fishing === 'y') {
   // console.log('Thats great! Me too!');
