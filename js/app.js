@@ -14,15 +14,13 @@ let score = 0;
 
 
 let beenToMidwest = prompt('Have I been to the Mid-West?').toLowerCase();
-// console.log(beenToMidwest);
 beenToMidwest = beenToMidwest.toLowerCase();
-// console.log(beenToMidwest);
 
 if (beenToMidwest === 'yes' || beenToMidwest === 'y') {
   // console.log('Thats great! Me too!');
   alert('You are correct! I grew up there.');
-  if (beenToMidwest !== 'yes' || beenToMidwest !=='no') {
-alert('Try again')
+  if (beenToMidwest !== 'yes' || beenToMidwest !=='no');
+  alert('Try again');
 }
 
 else if (beenToMidwest === 'no' || beenToMidwest === 'n') {
@@ -49,14 +47,16 @@ beenToWest = beenToMidwest.toLowerCase();
 if (beenToWest === 'yes' || beenToWest === 'y') {
   // console.log('Thats great! Me too!');
   alert('Yup, been to all West Coast States.');
-  if (beenToWest !== 'yes' || beenToWest !=='no') {
-alert('Try again')
+}
+if (beenToWest !== 'yes' || beenToWest !=='no') {
+  alert('Try again');
 }
 
 else if (beenToWest === 'no' || beenToWest === 'n') {
   // console.log('That is too bad, its a good place to visit');
   alert('Wrong, I live here now.');
 }
+
 else {
   // console.log('You need to answer with a Yes or a No');
   alert('You need to answer with a Yes or a No');
@@ -78,9 +78,11 @@ likeComps = likeComps.toLowerCase();
 if (likeComps === 'yes' || likeComps === 'y') {
   // console.log('You bet! Apples are for eating.');
   alert('Nope, apples are for eating!');
-  if (likeComps !== 'yes' || likeComps !=='no') {
-alert('Try again')
 }
+if (likeComps !== 'yes' || likeComps !=='no') {
+  alert('Try again');
+}
+
 
 else if (likeComps === 'no' || likeComps === 'n') {
   // console.log('That is too bad, computers are great');
@@ -105,10 +107,11 @@ sports = sports.toLowerCase();
 
 if (sports === 'yes' || sports === 'y') {
   // console.log('Thats great! Me too!');
-  alert('Yeah, watching them more than playing, except for DISC GOLF, it\'s great!');
-  if (sports !== 'yes' || sports !=='no') {
-alert('Try again')
+  alert('Yeah, watching them more than playing, except for DISC GOLF, it\'s great!');}
+if (sports !== 'yes' || sports !=='no') {
+  alert('Try again');
 }
+
 
 else if (sports === 'no' || sports === 'n') {
   // console.log('That is too bad, sports are great');
@@ -130,14 +133,14 @@ else {
 
 let fishing = prompt('Do I like to fish?').toLowerCase();{
 // console.log(fishing);
-fishing = fishing.toLowerCase();
+  fishing = fishing.toLowerCase();
 // console.log(fishing);
 }
 if (fishing === 'yes' || fishing === 'y') {
   // console.log('Thats great! Me too!');
   alert('Thats right! I love to crab and catch catfish and panfish!');
-  if (fishing !== 'yes' || fishing !=='no') {
-alert('Try again')
+  if (fishing !== 'yes' || fishing !=='no');
+  alert('Try again');
 }
 
 else if (fishing === 'no' || fishing === 'n') {
@@ -178,7 +181,7 @@ let guessAmount2 = 6;
 let statesLived = [' Michigan', ' Indiana', ' Illinois', ' Virginia', ' Texas', ' Washington',];
 
 for(let i = 0; i < guessAmount2; i++){
-  let userGuess = prompt('Name a State I have lived in.');
+  let userGuess = prompt('Name a State I have lived in.').toLowerCase();
   for(let j = 0; j < statesLived.length; j++){
     if(userGuess === statesLived[j]){
       alert('Nicely Done!');
