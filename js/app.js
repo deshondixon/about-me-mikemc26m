@@ -7,6 +7,8 @@ alert('Welcome! ' + usersName);
 
 
 
+let score = 0;
+
 
 
 
@@ -19,8 +21,8 @@ beenToMidwest = beenToMidwest.toLowerCase();
 if (beenToMidwest === 'yes' || beenToMidwest === 'y') {
   // console.log('Thats great! Me too!');
   alert('You are correct! I grew up there.');
-  // if (beenToMidwest !== 'yes' || beenToMidwest !=='no') {
-// alert('Try again')
+  if (beenToMidwest !== 'yes' || beenToMidwest !=='no') {
+alert('Try again')
 }
 
 else if (beenToMidwest === 'no' || beenToMidwest === 'n') {
@@ -47,8 +49,8 @@ beenToWest = beenToMidwest.toLowerCase();
 if (beenToWest === 'yes' || beenToWest === 'y') {
   // console.log('Thats great! Me too!');
   alert('Yup, been to all West Coast States.');
-  // if (beenToWest !== 'yes' || beenToWest !=='no') {
-// alert('Try again')
+  if (beenToWest !== 'yes' || beenToWest !=='no') {
+alert('Try again')
 }
 
 else if (beenToWest === 'no' || beenToWest === 'n') {
@@ -76,8 +78,8 @@ likeComps = likeComps.toLowerCase();
 if (likeComps === 'yes' || likeComps === 'y') {
   // console.log('You bet! Apples are for eating.');
   alert('Nope, apples are for eating!');
-  // if (likeComps !== 'yes' || likeComps !=='no') {
-// alert('Try again')
+  if (likeComps !== 'yes' || likeComps !=='no') {
+alert('Try again')
 }
 
 else if (likeComps === 'no' || likeComps === 'n') {
@@ -104,8 +106,8 @@ sports = sports.toLowerCase();
 if (sports === 'yes' || sports === 'y') {
   // console.log('Thats great! Me too!');
   alert('Yeah, watching them more than playing, except for DISC GOLF, it\'s great!');
-  // if (sports !== 'yes' || sports !=='no') {
-// alert('Try again')
+  if (sports !== 'yes' || sports !=='no') {
+alert('Try again')
 }
 
 else if (sports === 'no' || sports === 'n') {
@@ -126,16 +128,16 @@ else {
 
 
 
-let fishing = prompt('Do I like to fish?').toLowerCase();
+let fishing = prompt('Do I like to fish?').toLowerCase();{
 // console.log(fishing);
 fishing = fishing.toLowerCase();
 // console.log(fishing);
-
+}
 if (fishing === 'yes' || fishing === 'y') {
   // console.log('Thats great! Me too!');
   alert('Thats right! I love to crab and catch catfish and panfish!');
-  // if (fishing !== 'yes' || fishing !=='no') {
-// alert('Try again')
+  if (fishing !== 'yes' || fishing !=='no') {
+alert('Try again')
 }
 
 else if (fishing === 'no' || fishing === 'n') {
@@ -148,6 +150,39 @@ else {
 }
 
 
+alert ('Now lets play a game. You will need to guess a number between 1 and 10');
+
+
+let guessAmount1 = 4;
+let myNum = 9;
+
+
+for (let i = 0; i < guessAmount1; i++){
+  let numGuess = prompt('What is my favorite number between 1 and 10?');
+  if (numGuess < myNum) {
+    alert('Too low, try again!');
+  }
+  if (numGuess > myNum) {
+    alert('Too high, try again!');
+  }
+  if (numGuess === myNum, score++){
+    alert('Perfecto! You guessed it!');
+  }
+}
+alert('The correct number is 9');
 
 
 
+
+let guessAmount2 = 6;
+let statesLived = [' Michigan', ' Indiana', ' Illinois', ' Virginia', ' Texas', ' Washington',];
+
+for(let i = 0; i < guessAmount2; i++){
+  let userGuess = prompt('Name a State I have lived in.');
+  for(let j = 0; j < statesLived.length; j++){
+    if(userGuess === statesLived[j]){
+      alert('Nicely Done!');
+    }
+  }
+}
+alert(`No more guesses, I lived in ${statesLived}`);

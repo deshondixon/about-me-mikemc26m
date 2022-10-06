@@ -6,7 +6,7 @@ The index page tells the user about me. I added JS that promted the user to gues
 
 ## Lab 3
 
-I added JS to prompt the user to guess my favorite items and limited them on the number of guesses. 
+I added JS to prompt the user to guess my favorite items and limited them on the number of guesses.
 
 ### Author: Student/Group Name (Add name of any help I got)
 
